@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  min-height: 100vh; /* Use full viewport height */
+}
+
+.gif-image {
+  max-width: 10%; /* Adjust the GIF size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px; /* Add some space above the button */
+  background-color: #FF948F; /* Bootstrap primary color */
   color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.2s;
 }
 
-.App-link {
-  color: #61dafb;
+.button:hover {
+  background-color: #7f6e6e; /* Darker shade on hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh; /* Use full viewport height */
+}
+
+.slideshow-image {
+  width: auto; /* Adjust width automatically to maintain aspect ratio */
+  max-width: 100%; /* Image can be as wide as its container but no wider */
+  height: auto; /* Adjust height automatically to maintain aspect ratio */
+  max-height: 400px; /* Maximum height all images will adhere to */
+  display: block; /* Ensures the image is centered as a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+  object-fit: contain; /* Ensures that the entire image is always visible, contained within the set dimensions */
+}
+
+.slideshow-container {
+  width: 60%; /* Adjust this to control the overall size of the slideshow area */
+  margin: 0 auto; /* Center the container */
 }
