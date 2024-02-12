@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import IMG_5078 from './memories/IMG_5078.PNG'; 
 import IMG_4382 from './memories/IMG_4382.JPG'; 
 import IMG_366 from './memories/366A9476_Original.JPG'; 
@@ -18,6 +20,7 @@ import IMG_5085 from './memories/IMG_5085.PNG';
 import IMG_5086 from './memories/IMG_5086.PNG'; 
 import IMG_5087 from './memories/IMG_5087.PNG'; 
 import IMG_5088 from './memories/IMG_5088.PNG'; 
+
 
 const photos = [
   { src: IMG_5078, text: 'Start Point' },
@@ -50,6 +53,7 @@ function SlideshowPage() {
 
   return (
     <div className="container">
+        <Link to="/" className="home-button">Home</Link> {/* Home button */}
       <div className="image-container">
         <img src={photos[index].src} alt="Slideshow" className="slideshow-image" />
         <p className="image-description">{photos[index].text}</p>

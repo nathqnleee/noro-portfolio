@@ -34,7 +34,10 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 100vh; /* Use full viewport height */
+  min-height: 100vh; /* Full height to center vertically */
+  background-color: #ffe0f0; /* Light pink background */
+  color: #333; /* Soft text color for contrast */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
 }
 
 .slideshow-image {
@@ -48,6 +51,81 @@
 }
 
 .slideshow-container {
-  width: 60%; /* Adjust this to control the overall size of the slideshow area */
-  margin: 0 auto; /* Center the container */
+  width: 60%; 
+  margin: 0 auto; 
+}
+
+.timer {
+  background-color: #fff0f5; 
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  display: inline-block; 
+}
+
+.timer span {
+  display: inline-block;
+  font-size: 1.5rem; 
+  margin: 0 10px; 
+  font-weight: bold; 
+  color: #d6336c; 
+}
+
+h1 {
+  margin-bottom: 0.5em; 
+  color: #d6336c;
+  font-size: 2.5rem; 
+}
+
+.home-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 8px 16px;
+  background-color: #d6336c; /* Pink background for the button */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+  font-weight: bold;
+}
+
+.home-button:hover {
+  background-color: #bb286d; /* Darker shade on hover */
+}
+
+.duck-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.happy-duck {
+  /* Add styles for when the duck is happy */
+  animation: bounce 0.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.feed-button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.feed-button:hover {
+  background-color: #45a049;
 }
