@@ -32,7 +32,7 @@ function TimerPage() {
   return (
     <div className="container">
     <Link to="/" className="home-button">Home</Link> {/* Home button */}
-      <h1>Time Elapsed Since April 2, 2023</h1>
+      <h1>We've been together for ...</h1>
       <div className="timer">
         <span>{elapsedTime.days} days </span>
         <span>{elapsedTime.hours} hours </span>

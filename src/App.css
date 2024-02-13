@@ -40,6 +40,13 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
 }
 
+.buttons-container {
+  display: flex;
+  flex-direction: row; /* Ensures horizontal layout */
+  justify-content: center; /* Center buttons horizontally */
+  gap: 10px; /* Space between buttons */
+}
+
 .slideshow-image {
   width: auto; /* Adjust width automatically to maintain aspect ratio */
   max-width: 100%; /* Image can be as wide as its container but no wider */
@@ -128,4 +135,26 @@ h1 {
 
 .feed-button:hover {
   background-color: #45a049;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(100%) scale(0.5);
+  }
+  100% {
+    transform: translateY(-100%) scale(1.5);
+  }
+}
+
+ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
 }
