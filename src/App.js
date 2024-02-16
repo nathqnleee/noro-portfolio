@@ -6,7 +6,6 @@ import loveYouGif from './love-heart.gif';
 import './App.css'; // Ensure this import is correct
 import TextButtonsPage from './TextButtonsPage'; // Import the new page
 
-
 function HomePage() {
   return (
     <div className="container">
