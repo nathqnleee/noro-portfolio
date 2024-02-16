@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/noro-portfolio/static/css/main.fbabce93.css",
-    "main.js": "/noro-portfolio/static/js/main.cf198062.js",
+    "main.js": "/noro-portfolio/static/js/main.ee64e08d.js",
     "static/js/592.5469d5fa.chunk.js": "/noro-portfolio/static/js/592.5469d5fa.chunk.js",
     "static/media/strong-cute-love-hug-ukptk2pjqsd2af7g.gif": "/noro-portfolio/static/media/strong-cute-love-hug-ukptk2pjqsd2af7g.50d6652fe094d763ed0d.gif",
     "static/media/366A9476_Original.JPG": "/noro-portfolio/static/media/366A9476_Original.c6b506c40a1cc56f0635.JPG",
@@ -26,11 +26,11 @@
     "static/media/IMG_5079.PNG": "/noro-portfolio/static/media/IMG_5079.9bceeee6a59375a19141.PNG",
     "index.html": "/noro-portfolio/index.html",
     "main.fbabce93.css.map": "/noro-portfolio/static/css/main.fbabce93.css.map",
-    "main.cf198062.js.map": "/noro-portfolio/static/js/main.cf198062.js.map",
+    "main.ee64e08d.js.map": "/noro-portfolio/static/js/main.ee64e08d.js.map",
     "592.5469d5fa.chunk.js.map": "/noro-portfolio/static/js/592.5469d5fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbabce93.css",
-    "static/js/main.cf198062.js"
+    "static/js/main.ee64e08d.js"
   ]
 }
